@@ -33,7 +33,7 @@ public class BonecoChange : MonoBehaviour {
 			
 	void Start () {
 		
-		Camera.main.gameObject.camera.orthographicSize = 300;    
+		Camera.main.gameObject.GetComponent<Camera>().orthographicSize = 300;    
         mySprite = GameObject.Find("PLAYER").GetComponent<OTAnimatingSprite>();
 		
 		
@@ -170,8 +170,8 @@ public class BonecoChange : MonoBehaviour {
 			movement *= Time.deltaTime*moveSpeed;		
 			
 			
-			if(!audio.isPlaying)
-				audio.Play();			
+			if(!GetComponent<AudioSource>().isPlaying)
+				GetComponent<AudioSource>().Play();			
 									
 						
 				mySprite.position = Vector3.Lerp(mySprite.position,movement+mySprite.position,Time.time);
@@ -180,7 +180,7 @@ public class BonecoChange : MonoBehaviour {
 			
 					updateCamera();
 		}else
-			audio.Stop();
+			GetComponent<AudioSource>().Stop();
 	
 
 		

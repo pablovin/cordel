@@ -45,7 +45,7 @@ public class xa : MonoBehaviour {
 
 		// gather information from the camera to find the screen size
 		xa.camRatio = 1.333f; // 4:3 is 1.333f (800x600) 
-		xa.orthSize = Camera.mainCamera.camera.orthographicSize;
+		xa.orthSize = Camera.main.GetComponent<Camera>().orthographicSize;
 		xa.orthSizeX = xa.orthSize * xa.camRatio;
 	}
 

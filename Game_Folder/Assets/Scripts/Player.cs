@@ -45,7 +45,7 @@ public class Player : MonoBehaviour {
 		
 		// connect external objects
 		shootParent = transform.Find("shoot parent");
-		shootRenderer = GameObject.Find("shoot").renderer;
+		shootRenderer = GameObject.Find("shoot").GetComponent<Renderer>();
 		shootSprite = GameObject.Find("shoot").GetComponent<OTAnimatingSprite>();
     }
 	
@@ -203,13 +203,13 @@ public class Player : MonoBehaviour {
 		}
 		
 		// is the player on the far right edge of the screen?
-		if (thisTransform.position.x + xa.playerHitboxX > (Camera.mainCamera.transform.position.x + xa.orthSizeX)) 
+		if (thisTransform.position.x + xa.playerHitboxX > (Camera.main.transform.position.x + xa.orthSizeX)) 
 		{
 			xa.blockedRight = true;
 		}
 		
 		// is the player on the far left edge of the screen?
-		if (thisTransform.position.x - xa.playerHitboxX < (Camera.mainCamera.transform.position.x - xa.orthSizeX)) 
+		if (thisTransform.position.x - xa.playerHitboxX < (Camera.main.transform.position.x - xa.orthSizeX)) 
 		{
 			xa.blockedLeft = true;
 		}

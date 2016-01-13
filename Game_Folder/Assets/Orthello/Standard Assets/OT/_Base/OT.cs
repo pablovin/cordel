@@ -547,7 +547,7 @@ public class OT : MonoBehaviour
     /// <returns>True if we are over the GameObject</returns>
     public static bool Over(GameObject g)
     {
-        if (g.collider != null)
+        if (g.GetComponent<Collider>() != null)
         {
 			if (Input.touches.Length>0)
 			{
@@ -555,7 +555,7 @@ public class OT : MonoBehaviour
 				{
 					// check if any of the touches are over/on the object
 		            RaycastHit hit;
-		            bool found = g.collider.Raycast(view.camera.ScreenPointToRay(Input.touches[t].position), out hit, 2500f);				
+		            bool found = g.GetComponent<Collider>().Raycast(view.camera.ScreenPointToRay(Input.touches[t].position), out hit, 2500f);				
 					if (found)
 					{
 						instance._touch = Input.touches[t];
@@ -567,7 +567,7 @@ public class OT : MonoBehaviour
 			{						
 				// check if the mouse is over the object
 	            RaycastHit hit;
-	            return (g.collider.Raycast(view.camera.ScreenPointToRay(Input.mousePosition), out hit, 2500f));
+	            return (g.GetComponent<Collider>().Raycast(view.camera.ScreenPointToRay(Input.mousePosition), out hit, 2500f));
 			}
         }
         return false;
@@ -644,7 +644,7 @@ public class OT : MonoBehaviour
     /// <returns>True if we clicked on the GameObject</returns>
     public static bool Clicked(GameObject g, int button)
     {
-        if (g.collider != null && Input.GetMouseButtonDown(button))
+        if (g.GetComponent<Collider>() != null && Input.GetMouseButtonDown(button))
             return Over(g);
         return false;
     }
@@ -1949,10 +1949,10 @@ public class OT : MonoBehaviour
 				}
                 else
                     gameObjectProtoTypes.Add(g.GetInstanceID(), proto);
-                if (g.renderer != null)
+                if (g.GetComponent<Renderer>() != null)
 				{
 					if (!(o is OTSprite))
-                    	g.renderer.enabled = true;
+                    	g.GetComponent<Renderer>().enabled = true;
 					else
                     	(o as OTSprite).InvalidateSprite();						
 				}
@@ -1994,8 +1994,8 @@ public class OT : MonoBehaviour
                     g.SetActive(true);
 #endif
 					g.SendMessage("StartUp",null,SendMessageOptions.DontRequireReceiver);
-                    if (g.renderer != null)
-                        g.renderer.enabled = true;
+                    if (g.GetComponent<Renderer>() != null)
+                        g.GetComponent<Renderer>().enabled = true;
                     return g;
                 }
                 else

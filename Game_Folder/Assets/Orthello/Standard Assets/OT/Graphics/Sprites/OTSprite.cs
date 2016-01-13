@@ -194,7 +194,7 @@ public class OTSprite : OTObject
         get
         {
 			if (otRenderer == null)
-				otRenderer = renderer;
+				otRenderer = GetComponent<Renderer>();
 			
             if (Application.isPlaying)
                 return otRenderer.material;
@@ -204,7 +204,7 @@ public class OTSprite : OTObject
         set
         {
 			if (otRenderer == null)
-				otRenderer = renderer;
+				otRenderer = GetComponent<Renderer>();
 			
             assignedMaterial = true;
             if (Application.isPlaying)
@@ -714,7 +714,7 @@ public class OTSprite : OTObject
 			// will start floating
             if (lastMat == null && !assignedMaterial && !isCopy)
             {
-				if (renderer!=null)
+				if (GetComponent<Renderer>()!=null)
 				{
 	                if (!Application.isPlaying)
 	                    DestroyImmediate(otRenderer.sharedMaterial, true);
