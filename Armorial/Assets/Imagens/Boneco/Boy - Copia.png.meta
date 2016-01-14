@@ -1,0 +1,822 @@
+fileFormatVersion: 2
+guid: bd5b41e27f5b22442a39d998e66aa331
+timeCreated: 1452741402
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Boy - Copia_0
+    21300002: Boy - Copia_1
+    21300004: Boy - Copia_2
+    21300006: Boy - Copia_3
+    21300008: Boy - Copia_4
+    21300010: Boy - Copia_5
+    21300012: Boy - Copia_6
+    21300014: Boy - Copia_7
+    21300016: Boy - Copia_8
+    21300018: Boy - Copia_9
+    21300020: Boy - Copia_10
+    21300022: Boy - Copia_11
+    21300024: Boy - Copia_12
+    21300026: Boy - Copia_13
+    21300028: Boy - Copia_14
+    21300030: Boy - Copia_15
+    21300032: Boy - Copia_16
+    21300034: Boy - Copia_17
+    21300036: Boy - Copia_18
+    21300038: Boy - Copia_19
+    21300040: Boy - Copia_20
+    21300042: Boy - Copia_21
+    21300044: Boy - Copia_22
+    21300046: Boy - Copia_23
+    21300048: Boy - Copia_24
+    21300050: Boy - Copia_25
+    21300052: Boy - Copia_26
+    21300054: Boy - Copia_27
+    21300056: Boy - Copia_28
+    21300058: Boy - Copia_29
+    21300060: Boy - Copia_30
+    21300062: Boy - Copia_31
+    21300064: Boy - Copia_32
+    21300066: Boy - Copia_33
+    21300068: Boy - Copia_34
+    21300070: Boy - Copia_35
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Boy - Copia_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 462
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: -2}
+        - {x: 4, y: -7}
+        - {x: 4, y: -50}
+        - {x: 32, y: -50}
+        - {x: 32, y: -2}
+    - name: Boy - Copia_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 462
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: -2}
+        - {x: 14, y: -2}
+        - {x: 9, y: -4}
+        - {x: 4, y: -20}
+        - {x: 4, y: -50}
+        - {x: 32, y: -50}
+        - {x: 32, y: -15}
+        - {x: 29, y: -6}
+    - name: Boy - Copia_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 462
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: -32}
+        - {x: 32, y: -17}
+        - {x: 22, y: -2}
+        - {x: 10, y: -2}
+        - {x: 4, y: -15}
+        - {x: 4, y: -46}
+        - {x: 9, y: -50}
+        - {x: 29, y: -50}
+        - {x: 32, y: -48}
+        - {x: 32, y: -36}
+        - {x: 31, y: -35}
+    - name: Boy - Copia_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 462
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: -2}
+        - {x: 7, y: -6}
+        - {x: 4, y: -19}
+        - {x: 4, y: -50}
+        - {x: 32, y: -50}
+        - {x: 32, y: -9}
+        - {x: 25, y: -2}
+    - name: Boy - Copia_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 462
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: -32}
+        - {x: 32, y: -17}
+        - {x: 22, y: -2}
+        - {x: 10, y: -2}
+        - {x: 4, y: -14}
+        - {x: 4, y: -50}
+        - {x: 32, y: -50}
+        - {x: 32, y: -36}
+        - {x: 31, y: -35}
+    - name: Boy - Copia_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 462
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: -30}
+        - {x: 32, y: -17}
+        - {x: 26, y: -8}
+        - {x: 21, y: -2}
+        - {x: 11, y: -2}
+        - {x: 4, y: -16}
+        - {x: 4, y: -46}
+        - {x: 9, y: -50}
+        - {x: 29, y: -50}
+        - {x: 32, y: -48}
+        - {x: 32, y: -37}
+        - {x: 30, y: -35}
+    - name: Boy - Copia_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 462
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: -50}
+        - {x: 29, y: -50}
+        - {x: 32, y: -48}
+        - {x: 32, y: -21}
+        - {x: 30, y: -6}
+      - - {x: 4, y: -29}
+        - {x: 5, y: -32}
+        - {x: 8, y: -32}
+        - {x: 10, y: -30}
+        - {x: 9, y: -27}
+        - {x: 6, y: -27}
+    - name: Boy - Copia_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 412
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -1}
+        - {x: 15, y: -1}
+        - {x: 10, y: -3}
+        - {x: 8, y: -7}
+        - {x: 3, y: -27}
+        - {x: 3, y: -49}
+        - {x: 7, y: -50}
+        - {x: 32, y: -50}
+        - {x: 32, y: -4}
+      - - {x: 7, y: -31}
+        - {x: 10, y: -30}
+        - {x: 10, y: -27}
+        - {x: 7, y: -26}
+        - {x: 5, y: -28}
+    - name: Boy - Copia_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 412
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: -31}
+        - {x: 3, y: -49}
+        - {x: 4, y: -50}
+        - {x: 32, y: -50}
+        - {x: 32, y: -21}
+        - {x: 29, y: -6}
+        - {x: 24, y: -1}
+        - {x: 15, y: -1}
+        - {x: 8, y: -2}
+    - name: Boy - Copia_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 412
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: -49}
+        - {x: 5, y: -50}
+        - {x: 32, y: -50}
+        - {x: 32, y: -19}
+        - {x: 29, y: -4}
+        - {x: 24, y: -1}
+        - {x: 9, y: -1}
+        - {x: 4, y: -15}
+    - name: Boy - Copia_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 412
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: -1}
+        - {x: 15, y: -1}
+        - {x: 13, y: -2}
+        - {x: 10, y: -9}
+        - {x: 4, y: -19}
+        - {x: 4, y: -45}
+        - {x: 8, y: -50}
+        - {x: 28, y: -50}
+        - {x: 32, y: -47}
+        - {x: 32, y: -27}
+        - {x: 25, y: -6}
+    - name: Boy - Copia_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 412
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: -43}
+        - {x: 4, y: -50}
+        - {x: 32, y: -50}
+        - {x: 32, y: -14}
+        - {x: 30, y: -2}
+        - {x: 24, y: -1}
+        - {x: 8, y: -1}
+        - {x: 2, y: -12}
+    - name: Boy - Copia_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 412
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: -1}
+        - {x: 0, y: -23}
+        - {x: 0, y: -28}
+        - {x: 2, y: -29}
+        - {x: 3, y: -45}
+        - {x: 7, y: -50}
+        - {x: 32, y: -50}
+        - {x: 32, y: -17}
+        - {x: 25, y: -1}
+    - name: Boy - Copia_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 412
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: -1}
+        - {x: 2, y: -22}
+        - {x: 2, y: -42}
+        - {x: 5, y: -50}
+        - {x: 32, y: -50}
+        - {x: 32, y: -12}
+        - {x: 21, y: -1}
+    - name: Boy - Copia_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 362
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 0}
+        - {x: 4, y: -22}
+        - {x: 4, y: -44}
+        - {x: 7, y: -49}
+        - {x: 29, y: -49}
+        - {x: 32, y: -48}
+        - {x: 32, y: -12}
+        - {x: 24, y: 0}
+    - name: Boy - Copia_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 362
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: -49}
+        - {x: 32, y: -49}
+        - {x: 32, y: -21}
+        - {x: 25, y: 0}
+        - {x: 13, y: 0}
+        - {x: 4, y: -4}
+    - name: Boy - Copia_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 362
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 0}
+        - {x: 4, y: -7}
+        - {x: 4, y: -49}
+        - {x: 29, y: -49}
+        - {x: 32, y: -48}
+        - {x: 32, y: -13}
+        - {x: 23, y: 0}
+    - name: Boy - Copia_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 362
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: -24}
+        - {x: 4, y: -46}
+        - {x: 6, y: -49}
+        - {x: 29, y: -49}
+        - {x: 32, y: -48}
+        - {x: 32, y: -10}
+        - {x: 31, y: -2}
+        - {x: 25, y: 0}
+        - {x: 15, y: 0}
+        - {x: 12, y: -1}
+    - name: Boy - Copia_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 362
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 0}
+        - {x: 0, y: -14}
+        - {x: 0, y: -47}
+        - {x: 2, y: -49}
+        - {x: 26, y: -49}
+        - {x: 30, y: -48}
+        - {x: 30, y: -17}
+        - {x: 22, y: 0}
+    - name: Boy - Copia_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 362
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -47}
+        - {x: 2, y: -49}
+        - {x: 30, y: -49}
+        - {x: 30, y: -14}
+        - {x: 26, y: 0}
+        - {x: 9, y: 0}
+        - {x: 0, y: -14}
+    - name: Boy - Copia_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 362
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 0}
+        - {x: 0, y: -14}
+        - {x: 0, y: -49}
+        - {x: 30, y: -49}
+        - {x: 30, y: -16}
+        - {x: 22, y: 0}
+    - name: Boy - Copia_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -45}
+        - {x: 2, y: -48}
+        - {x: 30, y: -48}
+        - {x: 30, y: -5}
+        - {x: 29, y: 0}
+        - {x: 7, y: 0}
+        - {x: 0, y: -8}
+    - name: Boy - Copia_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 312
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 0}
+        - {x: 3, y: 0}
+        - {x: 0, y: -3}
+        - {x: 0, y: -48}
+        - {x: 28, y: -48}
+        - {x: 30, y: -44}
+        - {x: 30, y: -13}
+        - {x: 28, y: -3}
+    - name: Boy - Copia_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 312
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: -33}
+        - {x: 30, y: -30}
+        - {x: 30, y: -17}
+        - {x: 28, y: -3}
+        - {x: 22, y: 0}
+        - {x: 7, y: 0}
+        - {x: 0, y: -13}
+        - {x: 0, y: -43}
+        - {x: 4, y: -47}
+        - {x: 7, y: -48}
+        - {x: 24, y: -48}
+        - {x: 30, y: -43}
+        - {x: 30, y: -37}
+    - name: Boy - Copia_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 312
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 0}
+        - {x: 0, y: -19}
+        - {x: 0, y: -44}
+        - {x: 4, y: -48}
+        - {x: 27, y: -48}
+        - {x: 30, y: -47}
+        - {x: 30, y: -22}
+        - {x: 23, y: 0}
+      - - {x: 24, y: -26}
+        - {x: 25, y: -29}
+        - {x: 28, y: -29}
+        - {x: 30, y: -27}
+        - {x: 29, y: -24}
+        - {x: 26, y: -24}
+    - name: Boy - Copia_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 312
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 0}
+        - {x: 3, y: -4}
+        - {x: 0, y: -29}
+        - {x: 0, y: -46}
+        - {x: 3, y: -48}
+        - {x: 31, y: -48}
+        - {x: 31, y: -2}
+        - {x: 30, y: 0}
+      - - {x: 26, y: -29}
+        - {x: 29, y: -28}
+        - {x: 29, y: -25}
+        - {x: 26, y: -24}
+        - {x: 24, y: -26}
+    - name: Boy - Copia_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 312
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 0}
+        - {x: 6, y: 0}
+        - {x: 0, y: -9}
+        - {x: 0, y: -48}
+        - {x: 28, y: -48}
+        - {x: 31, y: -39}
+        - {x: 31, y: -16}
+        - {x: 28, y: -3}
+    - name: Boy - Copia_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 312
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 0}
+        - {x: 7, y: 0}
+        - {x: 0, y: -28}
+        - {x: 0, y: -48}
+        - {x: 26, y: -48}
+        - {x: 30, y: -47}
+        - {x: 30, y: -21}
+        - {x: 25, y: -6}
+    - name: Boy - Copia_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 262
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: -50}
+        - {x: 20, y: -47}
+        - {x: 12, y: -47}
+        - {x: 11, y: -50}
+      - - {x: 27, y: -32}
+        - {x: 30, y: -28}
+        - {x: 30, y: -16}
+        - {x: 23, y: 0}
+        - {x: 10, y: 0}
+        - {x: 9, y: -3}
+        - {x: 0, y: -32}
+        - {x: 0, y: -46}
+        - {x: 5, y: -47}
+        - {x: 27, y: -47}
+        - {x: 30, y: -43}
+        - {x: 30, y: -36}
+    - name: Boy - Copia_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 262
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: -12}
+        - {x: 28, y: 0}
+        - {x: 9, y: 0}
+        - {x: 2, y: -13}
+        - {x: 0, y: -26}
+        - {x: 0, y: -43}
+        - {x: 5, y: -47}
+        - {x: 24, y: -47}
+        - {x: 31, y: -42}
+        - {x: 30, y: -36}
+        - {x: 32, y: -35}
+    - name: Boy - Copia_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 262
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 0}
+        - {x: 0, y: -15}
+        - {x: 0, y: -42}
+        - {x: 4, y: -47}
+        - {x: 28, y: -47}
+        - {x: 32, y: -37}
+        - {x: 32, y: -18}
+        - {x: 21, y: 0}
+    - name: Boy - Copia_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 262
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 0}
+        - {x: 9, y: 0}
+        - {x: 7, y: -2}
+        - {x: 0, y: -25}
+        - {x: 0, y: -47}
+        - {x: 26, y: -47}
+        - {x: 32, y: -45}
+        - {x: 32, y: -9}
+        - {x: 30, y: -1}
+    - name: Boy - Copia_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 262
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: -23}
+        - {x: 24, y: -5}
+        - {x: 21, y: 0}
+        - {x: 10, y: 0}
+        - {x: 8, y: -2}
+        - {x: 0, y: -31}
+        - {x: 0, y: -44}
+        - {x: 3, y: -47}
+        - {x: 28, y: -47}
+        - {x: 30, y: -42}
+        - {x: 30, y: -27}
+        - {x: 29, y: -25}
+    - name: Boy - Copia_33
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 262
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -47}
+        - {x: 26, y: -47}
+        - {x: 30, y: -46}
+        - {x: 30, y: -23}
+        - {x: 23, y: 0}
+        - {x: 4, y: 0}
+        - {x: 0, y: -16}
+    - name: Boy - Copia_34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 262
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 0}
+        - {x: 9, y: 0}
+        - {x: 3, y: -10}
+        - {x: 0, y: -20}
+        - {x: 0, y: -46}
+        - {x: 4, y: -47}
+        - {x: 30, y: -47}
+        - {x: 30, y: -27}
+        - {x: 25, y: -7}
+    - name: Boy - Copia_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 212
+        width: 32
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 0}
+        - {x: 0, y: -16}
+        - {x: 0, y: -46}
+        - {x: 27, y: -46}
+        - {x: 30, y: -45}
+        - {x: 30, y: -18}
+        - {x: 24, y: 0}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
